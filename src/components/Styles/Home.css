@@ -1,0 +1,36 @@
+.home {
+    width: 90%;
+    background: linear-gradient(rgb(138, 145, 128), rgb(128, 145, 143));
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.home h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+.home p {
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.home h2 {
+    font-weight: 100;
+    border: 2px solid white;
+    padding: 10px;
+    transition: 0.3s all ease-in;
+
+}
+
+.home h2:hover {
+    background-color: white;
+    transform: translateX(-15px);
+    color: rgb(128, 145, 143);
+    cursor: pointer;
+}
