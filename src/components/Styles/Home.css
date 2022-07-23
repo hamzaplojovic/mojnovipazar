@@ -33,3 +33,17 @@
     color: rgb(128, 145, 143);
     cursor: pointer;
 }
+
+
+@media screen and (max-width:1320px) {
+    .home {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:815px) {
+    .home h2 {
+        font-size: 15px;
+    }
+}

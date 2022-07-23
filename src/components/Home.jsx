@@ -6,7 +6,10 @@ function Home() {
         <div className="home">
             <h1>MojNP</h1>
             <p>Service made for citizens of Novi Pazar</p>
-            <h2>← Click one of the icons to proceed</h2>
+            <h2>
+                <span className="arrow">←</span> Click one of the icons to
+                proceed
+            </h2>
         </div>
     );
 }
