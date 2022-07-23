@@ -30,7 +30,6 @@
 
 .home h2:hover {
     background-color: white;
-    transform: translateX(-15px);
     color: rgb(128, 145, 143);
     cursor: pointer;
 }
