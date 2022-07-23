@@ -40,7 +40,6 @@
 .item img:hover {
     transform: translateY(-10px);
     box-shadow: 10px 10px rgba(255, 255, 255, 1);
-    transform: rotate(10deg);
 
 
 }
