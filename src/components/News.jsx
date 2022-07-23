@@ -28,7 +28,7 @@ function News() {
 
                             <h6>{item.date.slice(0, 10)}</h6>
                             <p>
-                                {item.description.slice(0, 150)}
+                                {item.description.slice(0, 200)}
                                 <span className="dots">.........</span>
                             </p>
                             <h5>Views: {item.views}</h5>

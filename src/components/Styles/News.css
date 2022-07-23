@@ -22,19 +22,27 @@
     margin-bottom: 100px;
 }
 
-.item img {
-    width: 100%;
-}
+
 
 .item h1 {
     font-size: 30px;
 }
 
 .item img {
+    width: 100%;
     margin-top: 40px;
     border-radius: 5px;
     filter: contrast(80%);
     margin-bottom: 20px;
+    transition: 0.4s all ease;
+}
+
+.item img:hover {
+    transform: translateY(-10px);
+    box-shadow: 10px 10px rgba(255, 255, 255, 1);
+    transform: rotate(10deg);
+
+
 }
 
 .item h6 {
@@ -44,12 +52,14 @@
 
 .item h5 {
     margin-top: 10px;
+    font-weight: 100;
+    font-size: 20px;
 }
 
 .item .button {
     margin-left: 80%;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    margin-bottom: 100px;
+    margin-right: 20px;
     width: 100px;
     height: 30px;
     border-radius: 5px;
@@ -66,4 +76,8 @@
     background-color: white;
     color: black;
     cursor: pointer;
+}
+
+.item p {
+    font-size: 20px;
 }

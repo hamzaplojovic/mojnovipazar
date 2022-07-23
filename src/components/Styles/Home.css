@@ -1,6 +1,6 @@
 .home {
     width: 90%;
-    background: linear-gradient(rgb(138, 145, 128), rgb(128, 145, 143));
+    background: #1A1A1D;
     color: white;
     display: flex;
     justify-content: center;
