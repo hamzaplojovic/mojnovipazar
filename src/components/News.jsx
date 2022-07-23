@@ -14,7 +14,6 @@ function News() {
                 console.log("done");
             });
     }, []);
-
     return (
         <div className="news-main">
             <Header />
