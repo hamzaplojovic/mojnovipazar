@@ -9,17 +9,17 @@ function Header() {
     return (
         <nav className="nav">
             <Link to="/" className="link">
-                <div className="iconDiv">
+                <div className="header-iconDiv">
                     <ImHome size={40} className="icon" />
                 </div>
             </Link>
-            <Link to="vesti" className="link">
-                <div className="iconDiv">
+            <Link to="/vesti" className="link">
+                <div className="header-iconDiv">
                     <IoNewspaper size={40} className="icon" />
                 </div>
             </Link>
             <a href="https://turizam.herokuapp.com" className="link">
-                <div className="iconDiv">
+                <div className="header-iconDiv">
                     <FaPaperPlane size={40} className="icon" />
                 </div>
             </a>
