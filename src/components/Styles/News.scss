@@ -4,7 +4,7 @@
     margin-left: 10%;
     flex-direction: column;
     align-items: center;
-    color: black;
+    color: white;
     padding-top: 5%;
 }
 
@@ -22,8 +22,6 @@
     margin-bottom: 100px;
 }
 
-
-
 .item h1 {
     font-size: 30px;
 }
@@ -40,14 +38,11 @@
 .item img:hover {
     transform: translateY(-10px);
     box-shadow: 10px 10px rgba(255, 255, 255, 1);
-
-
 }
 
 .item h6 {
     margin-bottom: 10px;
 }
-
 
 .item h5 {
     margin-top: 10px;

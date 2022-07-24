@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import "./Styles/News.css";
+import "./Styles/News.scss";
 import Header from "./Header";
 
 function News() {
