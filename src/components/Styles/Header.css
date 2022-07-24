@@ -36,8 +36,10 @@
 @media screen and (max-width:1320px) {
     .nav {
         width: 100%;
+        background: rgba(255, 255, 255, 0.952);
         height: 15%;
         flex-direction: row;
+        z-index: 999;
     }
 
     .home {

@@ -51,18 +51,20 @@
 }
 
 .item .button {
-    margin-left: 80%;
-    margin-bottom: 100px;
-    margin-right: 20px;
     height: 30px;
     border-radius: 5px;
     background: none;
     font-size: 15px;
     border: 3px solid white;
     transition: 0.3s all ease;
-    padding: 10px 10px;
     text-decoration: none;
     color: white;
+    width: 50%;
+    margin-top: 5%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item .button:hover {
@@ -73,4 +75,54 @@
 
 .item p {
     font-size: 20px;
+}
+
+@media screen and (max-width: 1320px) {
+    .news {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .item p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .news {
+        margin-top: 15%;
+    }
+    .item {
+        padding: 4%;
+    }
+    .item img {
+        width: 100%;
+    }
+    .item p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .news {
+        margin-top: 20%;
+    }
+    .item {
+        width: 85%;
+    }
+    .item h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .button {
+        align-self: center;
+    }
 }
