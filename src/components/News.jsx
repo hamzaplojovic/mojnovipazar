@@ -7,7 +7,7 @@ import Header from "./Header";
 function News() {
     const [data, setData] = useState([]);
     useEffect(() => {
-        fetch("https://olxev9.deta.dev/vesti")
+        fetch("https://mkxbdw.deta.dev")
             .then((response) => response.json())
             .then((data) => {
                 setData(data);

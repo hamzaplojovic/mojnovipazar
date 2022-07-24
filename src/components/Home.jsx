@@ -9,20 +9,24 @@ function Home() {
         <div className="home">
             <Link to="/vesti" className="home-link">
                 <div className="section">
-                    <h1>Vesti</h1>
                     <div className="iconDiv">
                         <IoNewspaper size={40} className="icon" />
                     </div>
-                    <p>Vesti svih portala Sandzaka na jednom mestu.</p>
+                    <div className="text">
+                        <h1>Vesti</h1>
+                        <p>Vesti svih portala Sandzaka na jednom mestu.</p>
+                    </div>
                 </div>
             </Link>
             <a href="https://turizam.herokuapp.com" className="home-link">
                 <div className="section">
-                    <h1>Turizam</h1>
                     <div className="iconDiv">
                         <FaPaperPlane size={40} className="icon" />
                     </div>
-                    <p>Najvaznije znamenitosti Novog Pazara</p>
+                    <div className="text">
+                        <h1>Turizam</h1>
+                        <p>Najvaznije znamenitosti Novog Pazara</p>
+                    </div>
                 </div>
             </a>
         </div>
