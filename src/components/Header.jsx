@@ -18,7 +18,7 @@ function Header() {
                     <IoNewspaper size={40} className="icon" />
                 </div>
             </Link>
-            <a href="https://turizam.herokuapp.com" className="link">
+            <a href="/turizam" className="link">
                 <div className="header-iconDiv">
                     <FaPaperPlane size={40} className="icon" />
                 </div>

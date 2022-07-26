@@ -18,7 +18,7 @@ function Home() {
                     </div>
                 </div>
             </Link>
-            <a href="https://turizam.herokuapp.com" className="home-link">
+            <a href="turizam" className="home-link">
                 <div className="section">
                     <div className="iconDiv">
                         <FaPaperPlane size={40} className="icon" />

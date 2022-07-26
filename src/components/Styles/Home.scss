@@ -141,8 +141,6 @@
     .iconDiv {
         background-color: #1a1a1d;
         animation: shake 0.5s;
-
-        /* When the animation is finished, start again */
         animation-iteration-count: infinite;
     }
 }

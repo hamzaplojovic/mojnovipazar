@@ -1,0 +1,115 @@
+.tourism {
+    margin-left: 10%;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.turizam-link {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.tourism-item {
+    border-radius: 10px;
+    width: 100%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    border: 3px solid white;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+
+.tourism-icon {
+    width: 100%;
+    color: black;
+    height: 50%;
+}
+
+.turizam-iconDiv {
+    background-color: white;
+    width: 35%;
+    height: 40%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s all ease-in-out;
+}
+
+.tourism-item h1 {
+    padding-top: 5%;
+    font-weight: 100;
+    font-size: 55px;
+}
+
+.tourism-item p {
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 5%;
+}
+
+.tourism-item:hover {
+    background-color: white;
+    color: #1a1a1d;
+    cursor: pointer;
+    .tourism-icon {
+        color: white;
+    }
+    .turizam-iconDiv {
+        background-color: #1a1a1d;
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+    }
+}
+
+.turizam-page-rows {
+    width: 90%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.turizam-page-item {
+    color: white;
+    text-align: start;
+    width: 90%;
+    border: 4px solid white;
+    padding: 30px 50px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.turizam-page-item h1 {
+    font-size: 55px;
+    font-weight: 100;
+}
+.turizam-page-item p {
+    font-weight: 100;
+    padding-top: 2%;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.turizam-page-item iframe {
+    width: 100%;
+    padding-top: 3%;
+    height: 400px;
+}
