@@ -18,8 +18,10 @@ function Tourism() {
                             <div className="turizam-iconDiv">
                                 <FaMosque size={40} className="tourism-icon" />
                             </div>
-                            <h1>Islamski Spomenici</h1>
-                            <p>Islamski spomenici Novog Pazara</p>
+                            <div className="tourism-item-text">
+                                <h1>Islamski Spomenici</h1>
+                                <p>Islamski spomenici Novog Pazara</p>
+                            </div>
                         </div>
                     </Link>
                     <Link to="/turizam/historic" className="turizam-link">
@@ -30,8 +32,10 @@ function Tourism() {
                                     className="tourism-icon"
                                 />
                             </div>
-                            <h1>Historijski Spomenici</h1>
-                            <p>Historijski Spomenici Novog Pazara</p>
+                            <div className="tourism-item-text">
+                                <h1>Historijski Spomenici</h1>
+                                <p>Historijski Spomenici Novog Pazara</p>
+                            </div>
                         </div>
                     </Link>
                 </div>
@@ -41,8 +45,10 @@ function Tourism() {
                             <div className="turizam-iconDiv">
                                 <BiChurch size={40} className="tourism-icon" />
                             </div>
-                            <h1>Hriscanski Spomenici</h1>
-                            <p>Hriscanski Spomenici Novog Pazara</p>
+                            <div className="tourism-item-text">
+                                <h1>Hriscanski Spomenici</h1>
+                                <p>Hriscanski Spomenici Novog Pazara</p>
+                            </div>
                         </div>
                     </Link>
                     <Link to="/turizam/collapsed" className="turizam-link">
@@ -53,8 +59,10 @@ function Tourism() {
                                     className="tourism-icon"
                                 />
                             </div>
-                            <h1>Sruseni Spomenici</h1>
-                            <p>Sruseni Spomenici Novog Pazara</p>
+                            <div className="tourism-item-text">
+                                <h1>Sruseni Spomenici</h1>
+                                <p>Sruseni Spomenici Novog Pazara</p>
+                            </div>
                         </div>
                     </Link>
                 </div>

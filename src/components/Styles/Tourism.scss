@@ -39,12 +39,12 @@
 .tourism-icon {
     width: 100%;
     color: black;
-    height: 50%;
+    height: 60%;
 }
 
 .turizam-iconDiv {
     background-color: white;
-    width: 35%;
+    width: 30%;
     height: 40%;
     border-radius: 20px;
     display: flex;
@@ -112,4 +112,67 @@
     width: 100%;
     padding-top: 3%;
     height: 400px;
+}
+
+.tourism-item-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1320px) {
+    .tourism {
+        width: 100%;
+        margin-left: 0%;
+        padding-top: 13%;
+    }
+    .tourism-item h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .tourism-item {
+        display: flex;
+        flex-direction: row;
+    }
+    .tourism {
+        margin-top: 40%;
+        width: 100%;
+        flex-direction: column;
+        padding: 0 10%;
+    }
+    .tourism-item {
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 3% 0;
+    }
+    .row {
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        margin-top: 1%;
+    }
+    .turizam-iconDiv {
+        height: 90%;
+        width: 30%;
+    }
+    .turizam-link {
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .tourism {
+        margin-top: 20%;
+    }
+    .turizam-iconDiv {
+        display: none;
+    }
+    .turizam-link {
+        margin-top: 10%;
+    }
+    .tourism-item {
+        padding: 5%;
+    }
 }
