@@ -1,13 +1,13 @@
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
-import Header from "./Header";
-import "./Styles/Tourism.scss";
+import Header from "../Header";
+import "../Styles/Tourism.scss";
 
-function Christian() {
+function Historic() {
     const [data, setData] = useState([]);
     useEffect(() => {
-        fetch("https://mkxbdw.deta.dev/christian")
+        fetch("https://mkxbdw.deta.dev/historic")
             .then((response) => response.json())
             .then((data) => {
                 setData(data);
@@ -31,9 +31,15 @@ function Christian() {
                         </div>
                     );
                 })}
+                <a
+                    href="/turizam/historic/contribute"
+                    className="contribute-link"
+                >
+                    <button className="contribute-btn">Contribute</button>
+                </a>
             </div>
         </div>
     );
 }
 
-export default Christian;
+export default Historic;

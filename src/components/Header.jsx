@@ -1,5 +1,5 @@
 import React from "react";
-import "./Styles/Header.css";
+import "./Styles/Header.scss";
 import { ImHome } from "@react-icons/all-files/im/ImHome";
 import { IoNewspaper } from "@react-icons/all-files/io5/IoNewspaper";
 import { FaPaperPlane } from "@react-icons/all-files/fa/FaPaperPlane";

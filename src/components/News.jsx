@@ -27,10 +27,7 @@ function News() {
                             </a>
 
                             <h6>{item.date.slice(0, 10)}</h6>
-                            <p>
-                                {item.description.slice(0, 200)}
-                                <span className="dots">.........</span>
-                            </p>
+                            <p>{item.short_summary}</p>
                             <h5>Views: {item.views}</h5>
                             <h5>Author: {item.domain}</h5>
                             <a className="button" href={item.url}>

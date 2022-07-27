@@ -1,13 +1,13 @@
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
-import Header from "./Header";
-import "./Styles/Tourism.scss";
+import Header from "../Header";
+import "../Styles/Tourism.scss";
 
-function Collapsed() {
+function Islamic() {
     const [data, setData] = useState([]);
     useEffect(() => {
-        fetch("https://mkxbdw.deta.dev/collapsed")
+        fetch("https://mkxbdw.deta.dev/islamic")
             .then((response) => response.json())
             .then((data) => {
                 setData(data);
@@ -31,9 +31,15 @@ function Collapsed() {
                         </div>
                     );
                 })}
+                <a
+                    href="/turizam/islamic/contribute"
+                    className="contribute-link"
+                >
+                    <button className="contribute-btn">Contribute</button>
+                </a>
             </div>
         </div>
     );
 }
 
-export default Collapsed;
+export default Islamic;

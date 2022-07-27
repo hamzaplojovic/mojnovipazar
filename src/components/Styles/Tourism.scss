@@ -182,3 +182,28 @@
         font-size: 11px;
     }
 }
+
+.contribute-btn {
+    margin: 50px;
+    width: 60%;
+    height: 50px;
+    background: none;
+    border: 4px solid white;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all ease 0.3s;
+}
+
+.contribute-btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.contribute-link {
+    text-decoration: none;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
