@@ -46,8 +46,8 @@ function Tourism() {
                                 <BiChurch size={40} className="tourism-icon" />
                             </div>
                             <div className="tourism-item-text">
-                                <h1>Hriscanski Spomenici</h1>
-                                <p>Hriscanski Spomenici Novog Pazara</p>
+                                <h1>Hrišćanski Spomenici</h1>
+                                <p>Hrišćanski Spomenici Novog Pazara</p>
                             </div>
                         </div>
                     </Link>
@@ -60,8 +60,8 @@ function Tourism() {
                                 />
                             </div>
                             <div className="tourism-item-text">
-                                <h1>Sruseni Spomenici</h1>
-                                <p>Sruseni Spomenici Novog Pazara</p>
+                                <h1>Srušeni Spomenici</h1>
+                                <p>Srušeni Spomenici Novog Pazara</p>
                             </div>
                         </div>
                     </Link>

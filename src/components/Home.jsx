@@ -14,7 +14,7 @@ function Home() {
                     </div>
                     <div className="text">
                         <h1>Vesti</h1>
-                        <p>Vesti svih portala Sandzaka na jednom mestu.</p>
+                        <p>Vesti sa svih sandžačkih portala na jednom mestu.</p>
                     </div>
                 </div>
             </Link>
@@ -25,7 +25,7 @@ function Home() {
                     </div>
                     <div className="text">
                         <h1>Turizam</h1>
-                        <p>Najvaznije znamenitosti Novog Pazara</p>
+                        <p>Najvažnije znamenitosti Novog Pazara.</p>
                     </div>
                 </div>
             </a>

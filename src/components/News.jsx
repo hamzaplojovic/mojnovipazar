@@ -11,7 +11,6 @@ function News() {
             .then((response) => response.json())
             .then((data) => {
                 setData(data);
-                console.log("done");
             });
     }, []);
     return (
