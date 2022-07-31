@@ -63,16 +63,7 @@ function HistoricContribute() {
                         then "Embed", copy HTML and paste it here.
                     </h3>
                     <button
-                        onClick={useEffect(() => {
-                            fetch(
-                                `https://mkxbdw.deta.dev/historic/contribute?heading=${heading}&description=${desc}&iframe=${iframe}`
-                            )
-                                .then((response) => response.json())
-                                .then((data) => {
-                                    console.log("done");
-                                    alert("Item submitted to local database");
-                                });
-                        }, [])}
+                        onClick={console.log(heading)}
                         className="contribute-btn-secondary"
                     >
                         Submit

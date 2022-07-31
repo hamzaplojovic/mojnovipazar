@@ -62,21 +62,7 @@ function CollapsedContribute() {
                         To get link, go to place on maps, than click "Share" and
                         then "Embed", copy HTML and paste it here.
                     </h3>
-                    <button
-                        onClick={useEffect(() => {
-                            fetch(
-                                `https://mkxbdw.deta.dev/collapsed/contribute?heading=${heading}&description=${desc}&iframe=${iframe}`
-                            )
-                                .then((response) => response.json())
-                                .then((data) => {
-                                    console.log("done");
-                                    alert("Item submitted to local database");
-                                });
-                        }, [])}
-                        className="contribute-btn-secondary"
-                    >
-                        Submit
-                    </button>
+                    <button className="contribute-btn-secondary">Submit</button>
                 </div>
             </div>
         </div>
