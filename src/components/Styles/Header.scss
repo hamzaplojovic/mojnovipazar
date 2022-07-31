@@ -1,6 +1,6 @@
 .nav {
     width: 10%;
-    background-color: #344e41;
+    background-color: #28666e;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
 }
 
 .link {
-    color: #344e41;
+    color: #28666e;
 }
 
 .link {
@@ -21,21 +21,20 @@
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    background-color: #fefae0;
+    background-color: #fedc97;
     transition: all ease 0.4s;
 }
 
 .link:hover {
     cursor: pointer;
-    background-color: #344e41;
-    color: #e5dcc3;
-    border: 6px solid #e5dcc3;
+    background-color: #28666e;
+    color: #fedc97;
+    border: 6px solid #fedc97;
 }
 
 @media screen and (max-width: 1320px) {
     .nav {
         width: 100%;
-        background: #344e41;
         height: 15%;
         flex-direction: row;
         z-index: 999;

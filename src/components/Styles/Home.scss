@@ -36,7 +36,7 @@
 
 .home {
     width: 100%;
-    background: #fefae0;
+    background: #fedc97;
     color: white;
     display: flex;
     padding: 100px;
@@ -89,7 +89,7 @@
 }
 
 .home-link {
-    background: #e9edc9;
+    background: #d4d5a2;
     width: 33%;
     height: 100%;
     border-radius: 20px;
@@ -98,11 +98,11 @@
     align-items: center;
     transition: 0.3s all ease-in-out;
     text-decoration: none;
-    color: #344e41;
+    color: #28666e;
 }
 
 .section {
-    border: 2px solid #344e41;
+    border: 3px solid #7c9885;
     padding-top: 10%;
     border-radius: 20px;
     width: 100%;
@@ -114,7 +114,7 @@
 }
 
 .iconDiv {
-    background-color: #344e41;
+    background-color: #7c9885;
     width: 50%;
     height: 40%;
     border-radius: 20px;
@@ -127,19 +127,19 @@
 
 .iconDiv .icon {
     width: 100%;
-    color: #e9edc9;
+    color: #d4d5a2;
     height: 50%;
 }
 
 .section:hover {
-    background-color: #344e41;
-    color: #e9edc9;
+    background-color: #7c9885;
+    color: #fedc97;
     cursor: pointer;
     .icon {
-        color: #344e41;
+        color: #7c9885;
     }
     .iconDiv {
-        background-color: #e9edc9;
+        background-color: #fedc97;
         animation: shake 0.5s;
         animation-iteration-count: infinite;
     }

@@ -1,7 +1,7 @@
 .tourism {
     margin-left: 10%;
     display: flex;
-    background-color: #e5dcc3;
+    background-color: #fedc97;
     width: 90%;
     align-items: center;
     justify-content: space-evenly;
@@ -32,20 +32,20 @@
     flex-direction: column;
     align-items: center;
     height: 90%;
-    border: 2px solid #344e41;
-    background-color: #e9edc9;
-    color: #344e41;
+    border: 2px solid #7c9885;
+    background-color: #d4d5a2;
+    color: #7c9885;
     transition: 0.3s all ease-in-out;
 }
 
 .tourism-icon {
     width: 100%;
-    color: #e9edc9;
+    color: #d4d5a2;
     height: 60%;
 }
 
 .turizam-iconDiv {
-    background-color: #344e41;
+    background-color: #7c9885;
     width: 30%;
     height: 40%;
     border-radius: 20px;
@@ -68,14 +68,14 @@
 }
 
 .tourism-item:hover {
-    background-color: #344e41;
-    color: #e5dcc3;
+    background-color: #7c9885;
+    color: #fedc97;
     cursor: pointer;
     .tourism-icon {
-        color: #344e41;
+        color: #7c9885;
     }
     .turizam-iconDiv {
-        background-color: #e5dcc3;
+        background-color: #fedc97;
         animation: shake 0.5s;
         animation-iteration-count: infinite;
     }
@@ -90,11 +90,11 @@
 }
 
 .turizam-page-item {
-    color: #344e41;
+    color: #28666e;
     text-align: start;
     width: 90%;
-    border: 4px solid #344e41;
-    background-color: #e9edc9;
+    border: 4px solid #7c9885;
+    background-color: #d4d5a2;
     padding: 30px 50px;
     border-radius: 10px;
     margin-top: 100px;
